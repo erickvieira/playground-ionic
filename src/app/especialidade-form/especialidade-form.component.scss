@@ -1,0 +1,15 @@
+.box {
+    margin-top: 16px;
+    $box-color: var(--ion-color-medium);
+    color: $box-color;
+    border: 1px solid $box-color;
+    border-radius: 8px;
+    padding: 8px;
+    .box-header {
+        position: absolute;
+        transform: translateY(-100%);
+        left: 24px;
+        background: white;
+        padding: 0 8px;
+    }
+}
